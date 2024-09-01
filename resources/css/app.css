@@ -86,3 +86,44 @@
   input[type="checkbox"] {
     margin: 0;
   }
+
+  .preview-container {
+    margin-top: 20px;
+    background-color: #e0e0e0;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  .text-danger {
+    color: red;
+  }
+
+  button {
+    background-color: #4CAF50; /* Hijau */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  /* Gaya tombol saat hover */
+  button:hover {
+    background-color: #45a049; /* Hijau lebih gelap */
+    transform: scale(1.05); /* Zoom sedikit */
+  }
+  
+  /* Gaya khusus untuk tombol edit */
+  button.edit {
+    background-color: #ffa500; /* Oranye */
+  }
+  
+  /* Gaya tombol edit saat hover */
+  button.edit:hover {
+    background-color: #e59400; /* Oranye lebih gelap */
+  }
